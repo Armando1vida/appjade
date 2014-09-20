@@ -69,9 +69,15 @@ html
           //end aside
           //begin content
           section#main-content
-              section.wrapper
+              section.wrapper.site-min-height
                 block body
           //end content
+          //begin footer
+          footer.site-footer
+              .text-center 2014 AMC
+                  a.go-top(href="#")
+                        i.fa.fa-angle-up
+          // end footer
       #ascrail2000.nicescroll-rails(style='width: 3px; z-index: auto; cursor: default; position: fixed; height: 667px; opacity: 0; background: rgb(64, 64, 64);')
            div(style='position: relative; top: 0px; float: right; width: 3px; height: 562px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: rgb(232, 64, 63); background-clip: padding-box;')
       #ascrail2000-hr.nicescroll-rails(style='height: 3px; z-index: auto; position: fixed; cursor: default; display: none; width: 207px; opacity: 0; background: rgb(64, 64, 64);')
@@ -84,11 +90,11 @@ html
       block script
             script(src="/js/dependencies/sails.io.js")
             script(src="/js/dependencies/jquery.js")
-            script(src="/js/bootstrap.min.js")
+            script(src="/js/dependencies/jquery.nicescroll.js")
+            script(src="/js/dependencies/jquery.scrollTo.min.js")
+            script(src="/js/dependencies/bootstrap.min.js")
+            script(src="/js/dependencies/jquery.customSelect.min.js")
+            script(src="/js/dependencies/jquery.dcjqaccordion.2.7.js")
+            script(src="/js/dependencies/respond.min.js")
+            script(src="/js/dependencies/slidebars.min.js")
             script(src="/js/common-scripts.js")
-            script(src="/js/jquery.customSelect.min.js")
-            script(src="/js/jquery.dcjqaccordion.2.7.js")
-            script(src="/js/jquery.nicescroll.js")
-            script(src="/js/jquery.scrollTo.min.js")
-            script(src="/js/respond.min.js")
-            script(src="/js/slidebars.min.js")
