@@ -41,11 +41,12 @@ module.exports.connections = {
   *                                                                          *
   ***************************************************************************/
   someMysqlServer: {
-    adapter: 'sails-mysql',
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'appjade'
+      adapter: 'sails-mysql',
+      host: '127.0.0.1',
+      user: 'root',
+      password: '',
+      database: 'appjade',
+      port:3306
   },
 
   /***************************************************************************
