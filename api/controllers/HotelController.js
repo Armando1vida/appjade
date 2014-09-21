@@ -6,11 +6,14 @@
  */
 
 module.exports = {
+
     hola: function (req, res) {
         return res.json({
             todo: 'Not implemented yet!'
         });
+    },
+    homepage: function (req, res) {
+        return res.view();
     }
-	
 };
 
